@@ -61,4 +61,46 @@ Q1 . Describe Hub, Switch and Router
 
 Q2. What is the OSI model? 
 
+The open systems interconnection (OSI) model is a conceptual model created by the International Organization for Standardization which enables diverse communication systems to communicate using standard protocols. In plain English, the OSI provides a standard for different computer systems to be able to communicate with each other.
 
+The OSI Model can be seen as a universal language for computer networking. It’s based on the concept of splitting up a communication system into seven abstract layers, each one stacked upon the last.
+    
+ ![alt text](https://www.cloudflare.com/img/learning/ddos/what-is-a-ddos-attack/osi-model-7-layers.svg)
+ 
+ Q3. What do you mean by the TCP/IP Model?
+ 
+ TCP/IP Model helps you to determine how a specific computer should be connected to the internet and how data should be transmitted between them. It helps you to create a virtual network when multiple computer networks are connected together. The purpose of TCP/IP model is to allow communication over large distances.
+ 
+ TCP/IP stands for Transmission Control Protocol/ Internet Protocol. TCP/IP Stack is specifically designed as a model to offer highly reliable and end-to-end byte stream over an unreliable internetwork.
+ 
+ ![alt Tcp/ip model](https://cdn.guru99.com/images/1/093019_0615_TCPIPModelW1.png)
+ 
+ Q4 . What do you mean by HTTP, TCP and UDP
+ 
+    - TCP
+    
+        TCP/IP stands for Transmission Control Protocol/ Internet Protocol. It is specifically designed as a model to offer highly reliable and end-to-end byte stream over an unreliable internetwork.
+        
+    - UDP 
+    
+        UDP is a Datagram oriented protocol. It is used for broadcast and multicast type of network transmission. The full form of UDP is User Datagram Protocol (A datagram is a transfer unit associated with a packet-switched network.) The UDP protocol works almost similar to TCP, but it throws all the error-checking stuff out, all the back-and-forth communication and deliverability.
+        
+    - HTTP
+        While TCP contains information about what data has or has not yet been received, HTTP contains specific instructions on how to read and process this data once it arrives. Before data is sent from one node on the Internet to another, it gets wrapped in information detailing the nature of the request being sent, or the response to said request. This is done using HTTP, or the Hypertext Transfer Protocol.
+
+    When you type a URL into your web browser, you are sending an HTTP request to a web server. That server will then respond, again using the formatting of HTTP. (If you're wondering about HTTPS, which you might've noticed in front of most popular sites these days, the "S" stands for "secure"—meaning that those packets are encrypted.)
+
+    The two most common examples of HTTP requests are: 1. "POST," denoting that this contains data to be pushed to the server 2. "GET," asking that a resource from the server be fetched
+
+    So: TCP manages the data stream, and HTTP describes what the data in this stream contains.
+
+
+Q5. What is a Firewall?
+
+A firewall is a network security device that monitors incoming and outgoing network traffic and decides whether to allow or block specific traffic based on a defined set of security rules.
+
+Firewalls have been a first line of defense in network security for over 25 years. They establish a barrier between secured and controlled internal networks that can be trusted and untrusted outside networks, such as the Internet. 
+
+A firewall can be hardware, software, or both.
+
+Q6 . Define Latency 
